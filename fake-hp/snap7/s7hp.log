@@ -1,0 +1,116 @@
+INFO:snap7.server:creating server
+INFO:snap7.server:setting event callback
+INFO:snap7.server:registering area 5, index 1, size 100
+INFO:snap7.server:registering area 1, index 1, size 100
+INFO:snap7.server:starting server on 0.0.0.0:102
+INFO:snap7.server:callback event: 2019-08-15 03:46:55 Server Cannot start listener - Socket Error :  TCP : Address already in use
+INFO:snap7.server:callback event: 2019-08-15 03:46:55 Server Cannot start listener - Socket Error :  TCP : Address already in use
+ERROR:snap7.common: TCP : Address already in use
+Traceback (most recent call last):
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 41, in <module>
+    mainloop()
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 27, in mainloop
+    server.start(tcpport=tcpport)
+  File "/usr/local/lib/python2.7/dist-packages/snap7/server.py", line 19, in f
+    check_error(code, context="server")
+  File "/usr/local/lib/python2.7/dist-packages/snap7/common.py", line 65, in check_error
+    raise Snap7Exception(error)
+snap7.snap7exceptions.Snap7Exception:  TCP : Address already in use
+INFO:snap7.server:creating server
+INFO:snap7.server:setting event callback
+INFO:snap7.server:registering area 5, index 1, size 100
+INFO:snap7.server:registering area 1, index 1, size 100
+INFO:snap7.server:starting server on 0.0.0.0:102
+INFO:snap7.server:callback event: 2019-08-15 03:50:01 Server started
+INFO:snap7.server:callback event: 2019-08-15 03:50:01 Server started
+INFO:root:2019-08-15 03:50:01 Server started
+INFO:snap7.server:callback event: 2019-08-15 03:52:24 [61.216.85.229] Client added
+INFO:snap7.server:callback event: 2019-08-15 03:52:24 [61.216.85.229] Client added
+INFO:snap7.server:callback event: 2019-08-15 03:52:24 [61.216.85.229] The client requires a PDU size of 480 bytes
+INFO:snap7.server:callback event: 2019-08-15 03:52:24 [61.216.85.229] The client requires a PDU size of 480 bytes
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:root:2019-08-15 03:52:24 [61.216.85.229] Client added
+INFO:root:2019-08-15 03:52:24 [61.216.85.229] The client requires a PDU size of 480 bytes
+INFO:root:2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:root:2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x001c INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x001c INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Client disconnected by peer
+INFO:snap7.server:callback event: 2019-08-15 03:52:25 [61.216.85.229] Client disconnected by peer
+INFO:root:2019-08-15 03:52:25 [61.216.85.229] Read SZL request, ID:0x001c INDEX:0x0001 --> OK
+INFO:root:2019-08-15 03:52:25 [61.216.85.229] Client disconnected by peer
+INFO:snap7.server:creating server
+INFO:snap7.server:setting event callback
+INFO:snap7.server:registering area 5, index 1, size 100
+INFO:snap7.server:registering area 1, index 1, size 100
+INFO:snap7.server:starting server on 0.0.0.0:102
+INFO:snap7.server:callback event: 2019-08-15 04:02:31 Server Cannot start listener - Socket Error :  TCP : Address already in use
+INFO:snap7.server:callback event: 2019-08-15 04:02:31 Server Cannot start listener - Socket Error :  TCP : Address already in use
+ERROR:snap7.common: TCP : Address already in use
+Traceback (most recent call last):
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 41, in <module>
+    mainloop()
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 27, in mainloop
+    server.start(tcpport=tcpport)
+  File "/usr/local/lib/python2.7/dist-packages/snap7/server.py", line 19, in f
+    check_error(code, context="server")
+  File "/usr/local/lib/python2.7/dist-packages/snap7/common.py", line 65, in check_error
+    raise Snap7Exception(error)
+snap7.snap7exceptions.Snap7Exception:  TCP : Address already in use
+INFO:snap7.server:creating server
+INFO:snap7.server:setting event callback
+INFO:snap7.server:registering area 5, index 1, size 100
+INFO:snap7.server:registering area 1, index 1, size 100
+INFO:snap7.server:starting server on 0.0.0.0:102
+INFO:snap7.server:callback event: 2019-08-15 05:02:47 Server Cannot start listener - Socket Error :  TCP : Address already in use
+INFO:snap7.server:callback event: 2019-08-15 05:02:47 Server Cannot start listener - Socket Error :  TCP : Address already in use
+ERROR:snap7.common: TCP : Address already in use
+Traceback (most recent call last):
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 41, in <module>
+    mainloop()
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 27, in mainloop
+    server.start(tcpport=tcpport)
+  File "/usr/local/lib/python2.7/dist-packages/snap7/server.py", line 19, in f
+    check_error(code, context="server")
+  File "/usr/local/lib/python2.7/dist-packages/snap7/common.py", line 65, in check_error
+    raise Snap7Exception(error)
+snap7.snap7exceptions.Snap7Exception:  TCP : Address already in use
+INFO:snap7.server:creating server
+INFO:snap7.server:setting event callback
+INFO:snap7.server:registering area 5, index 1, size 100
+INFO:snap7.server:registering area 1, index 1, size 100
+INFO:snap7.server:starting server on 0.0.0.0:102
+INFO:snap7.server:callback event: 2019-08-15 06:02:42 Server Cannot start listener - Socket Error :  TCP : Address already in use
+INFO:snap7.server:callback event: 2019-08-15 06:02:42 Server Cannot start listener - Socket Error :  TCP : Address already in use
+ERROR:snap7.common: TCP : Address already in use
+Traceback (most recent call last):
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 41, in <module>
+    mainloop()
+  File "/home/s7-hp/snap7/bin/snap7-server.py", line 27, in mainloop
+    server.start(tcpport=tcpport)
+  File "/usr/local/lib/python2.7/dist-packages/snap7/server.py", line 19, in f
+    check_error(code, context="server")
+  File "/usr/local/lib/python2.7/dist-packages/snap7/common.py", line 65, in check_error
+    raise Snap7Exception(error)
+snap7.snap7exceptions.Snap7Exception:  TCP : Address already in use
+INFO:snap7.server:callback event: 2019-08-15 06:42:19 [61.216.85.229] Client added
+INFO:snap7.server:callback event: 2019-08-15 06:42:19 [61.216.85.229] Client added
+INFO:root:2019-08-15 06:42:19 [61.216.85.229] Client added
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] The client requires a PDU size of 480 bytes
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] The client requires a PDU size of 480 bytes
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x001c INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x001c INDEX:0x0001 --> OK
+INFO:root:2019-08-15 06:42:20 [61.216.85.229] The client requires a PDU size of 480 bytes
+INFO:root:2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:root:2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x0011 INDEX:0x0001 --> OK
+INFO:root:2019-08-15 06:42:20 [61.216.85.229] Read SZL request, ID:0x001c INDEX:0x0001 --> OK
+INFO:snap7.server:callback event: 2019-08-15 06:42:21 [61.216.85.229] Client disconnected by peer
+INFO:snap7.server:callback event: 2019-08-15 06:42:21 [61.216.85.229] Client disconnected by peer
+INFO:root:2019-08-15 06:42:21 [61.216.85.229] Client disconnected by peer

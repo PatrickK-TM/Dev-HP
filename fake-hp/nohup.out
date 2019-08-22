@@ -1,0 +1,1284 @@
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:34:48Z <Greenlet "Greenlet-1" at 0x7f44d8edcdb8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5ee84d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:34:48Z <Greenlet "Greenlet-4" at 0x7f44d5efe788: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5ec87d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:34:48Z <Greenlet "Greenlet-5" at 0x7f44d5efe998: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5ec8890>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:34:48Z <Greenlet "Greenlet-7" at 0x7f44d5efeba8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5ec88d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:34:48Z <Greenlet "Greenlet-9" at 0x7f44d5efeec0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5ec8c10>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:35:18Z <Greenlet "Greenlet-10" at 0x7f44d5ed8158: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ec8dd0 fileno=14 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:35:18Z <Greenlet "Greenlet-11" at 0x7f44d5ed8470: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ec8ad0 fileno=15 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:35:18Z <Greenlet "Greenlet-12" at 0x7f44d5ed8788: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ec8f10 fileno=16 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "/home/MTPot/MTPot.py", line 421, in <module>
+    main()
+  File "/home/MTPot/MTPot.py", line 418, in main
+    server.serve_forever()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 362, in serve_forever
+    self.start()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 306, in start
+    self.init_socket()
+  File "/usr/local/lib/python2.7/dist-packages/gevent/server.py", line 146, in init_socket
+    self.socket = self.get_listener(self.address, self.backlog, self.family)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/server.py", line 157, in get_listener
+    return _tcp_listener(address, backlog=backlog, reuse_addr=cls.reuse_addr, family=family)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/server.py", line 256, in _tcp_listener
+    sock.bind(address)
+  File "<string>", line 1, in bind
+socket.error: [Errno 98] Address already in use: (u'::', 23)
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:35:26Z <Greenlet "Greenlet-12" at 0x7f44d5ed8680: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5e850>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:35:44Z <Greenlet "Greenlet-15" at 0x7f44d5ed8ec0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5e8d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:35:45Z <Greenlet "Greenlet-13" at 0x7f44d5ed8368: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a5e7d0 fileno=16 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:35:48Z <Greenlet "Greenlet-16" at 0x7f44d5ed8cb0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5ec50>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 815, in inputcooker
+    c = self._inputcooker_getc()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 776, in _inputcooker_getc
+    ret = self.sock.recv(20)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 289, in recv
+    return sock.recv(*args)
+error: [Errno 104] Connection reset by peer
+2019-08-15T03:36:29Z <Greenlet "Greenlet-18" at 0x7f44d5ed8ba8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5ec10>>> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:36:29Z <Greenlet "Greenlet-17" at 0x7f44d5a65260: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a5ee50 fileno=18 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:36:47Z <Greenlet "Greenlet-20" at 0x7f44d5a65578: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5e9d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:12Z <Greenlet "Greenlet-22" at 0x7f44d5a65890: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5e510>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 815, in inputcooker
+    c = self._inputcooker_getc()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 776, in _inputcooker_getc
+    ret = self.sock.recv(20)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 289, in recv
+    return sock.recv(*args)
+error: [Errno 104] Connection reset by peer
+2019-08-15T03:37:18Z <Greenlet "Greenlet-24" at 0x7f44d5a65ba8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a5ee10>>> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:23Z <Greenlet "Greenlet-27" at 0x7f44d59fa260: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59f56d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:37:24Z <Greenlet "Greenlet-25" at 0x7f44d5a65db8: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59f5750 fileno=22 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:27Z <Greenlet "Greenlet-28" at 0x7f44d59fa470: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59f5ed0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:28Z <Greenlet "Greenlet-31" at 0x7f44d59fa998: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59f5bd0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:37:28Z <Greenlet "Greenlet-29" at 0x7f44d59fa578: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59f5b50 fileno=24 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:32Z <Greenlet "Greenlet-32" at 0x7f44d59fa578: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59f5a50>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:50Z <Greenlet "Greenlet-35" at 0x7f44d5a0a050: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59f5f90>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:37:50Z <Greenlet "Greenlet-33" at 0x7f44d59fa788: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59f54d0 fileno=26 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:37:53Z <Greenlet "Greenlet-36" at 0x7f44d59fadb8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0e390>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:38:00Z <Greenlet "Greenlet-39" at 0x7f44d5a0a788: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0e490>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:38:00Z <Greenlet "Greenlet-37" at 0x7f44d5a0a368: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a0e650 fileno=28 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:38:04Z <Greenlet "Greenlet-40" at 0x7f44d5a0a998: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0ea10>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:38:13Z <Greenlet "Greenlet-43" at 0x7f44d5a0aec0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0e990>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:38:14Z <Greenlet "Greenlet-41" at 0x7f44d5a0aaa0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a0ea90 fileno=30 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:38:17Z <Greenlet "Greenlet-44" at 0x7f44d5a0a470: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0ef90>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:38:23Z <Greenlet "Greenlet-45" at 0x7f44d59facb0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a0efd0 fileno=32 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 815, in inputcooker
+    c = self._inputcooker_getc()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 776, in _inputcooker_getc
+    ret = self.sock.recv(20)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 289, in recv
+    return sock.recv(*args)
+error: [Errno 104] Connection reset by peer
+2019-08-15T03:38:43Z <Greenlet "Greenlet-46" at 0x7f44d5a1c368: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0e2d0>>> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:39:01Z <Greenlet "Greenlet-48" at 0x7f44d5a1c788: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a260d0 fileno=34 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:39:47Z <Greenlet "Greenlet-51" at 0x7f44d59b0050: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a26450>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:39:47Z <Greenlet "Greenlet-49" at 0x7f44d5a1cba8: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a26950 fileno=35 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:39:47Z <Greenlet "Greenlet-53" at 0x7f44d5a1cdb8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a26ed0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:39:47Z <Greenlet "Greenlet-52" at 0x7f44d59b0260: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a26d50 fileno=37 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:39:49Z <Greenlet "Greenlet-55" at 0x7f44d59b0470: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a26b90>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:39:50Z <Greenlet "Greenlet-52" at 0x7f44d5a1ccb0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a0efd0 fileno=37 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:39:51Z <Greenlet "Greenlet-56" at 0x7f44d5a1c158: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a26e90>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:39:51Z <Greenlet "Greenlet-0" at 0x7f44d59b0998: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0110>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:39:53Z <Greenlet "Greenlet-3" at 0x7f44d5efe680: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0290>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:39:53Z <Greenlet "Greenlet-58" at 0x7f44d8edccb0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c0350 fileno=9 timeout=30.0>,)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:40:30Z <Greenlet "Greenlet-6" at 0x7f44d59b0ec0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0850>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:40:30Z <Greenlet "Greenlet-58" at 0x7f44d8edccb0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ec8790 fileno=9 timeout=30.0>,)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:41:20Z <Greenlet "Greenlet-8" at 0x7f44d59c9050: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0b10>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:41:20Z <Greenlet "Greenlet-58" at 0x7f44d8edccb0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c02d0 fileno=9 timeout=30.0>,)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:41:24Z <Greenlet "Greenlet-61" at 0x7f44d5efedb8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0650>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:41:52Z <Greenlet "Greenlet-10" at 0x7f44d5ed8788: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ec89d0 fileno=14 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:41:52Z <Greenlet "Greenlet-62" at 0x7f44d5ed8050: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c0990 fileno=13 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:42:28Z <Greenlet "Greenlet-11" at 0x7f44d59c9578: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0a10>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:42:28Z <Greenlet "Greenlet-10" at 0x7f44d5ed8050: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ec8f50 fileno=13 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:42:30Z <Greenlet "Greenlet-10" at 0x7f44d5ed8050: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c0c10 fileno=13 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:42:31Z <Greenlet "Greenlet-63" at 0x7f44d5ed8998: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0d90>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:42:32Z <Greenlet "Greenlet-64" at 0x7f44d59c9788: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c0790 fileno=15 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:06Z <Greenlet "Greenlet-14" at 0x7f44d5efeaa0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5ee8410 fileno=15 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:43:22Z <Greenlet "Greenlet-13" at 0x7f44d5ed8788: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0a50>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:22Z <Greenlet "Greenlet-14" at 0x7f44d5efeaa0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c0590 fileno=15 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:43:26Z <Greenlet "Greenlet-65" at 0x7f44d5a1c890: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0390>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:39Z <Greenlet "Greenlet-66" at 0x7f44d5a65158: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59c0350 fileno=16 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:43:40Z <Greenlet "Greenlet-19" at 0x7f44d59c9470: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0f50>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:40Z <Greenlet "Greenlet-17" at 0x7f44d5ed8890: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a0efd0 fileno=16 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:43:50Z <Greenlet "Greenlet-21" at 0x7f44d59c9998: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0dd0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:51Z <Greenlet "Greenlet-17" at 0x7f44d5ed8890: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a5ea50 fileno=16 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:43:54Z <Greenlet "Greenlet-68" at 0x7f44d5a65788: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0e90>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:58Z <Greenlet "Greenlet-23" at 0x7f44d5a65aa0: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a5ef10 fileno=21 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:43:58Z <Greenlet "Greenlet-26" at 0x7f44d5a65cb0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59d9390>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:43:59Z <Greenlet "Greenlet-69" at 0x7f44d5a65998: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59d9050 fileno=20 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:44:00Z <Greenlet "Greenlet-25" at 0x7f44d59c9cb0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59d9110>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:44:00Z <Greenlet "Greenlet-69" at 0x7f44d5a65998: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59d96d0 fileno=20 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:44:03Z <Greenlet "Greenlet-71" at 0x7f44d5a65db8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59d90d0>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:44:04Z <Greenlet "Greenlet-30" at 0x7f44d59e2260: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59d9710>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:44:35Z <Greenlet "Greenlet-34" at 0x7f44d59faba8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59d9890>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:44:35Z <Greenlet "Greenlet-73" at 0x7f44d59fa890: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59d9510 fileno=25 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:44:54Z <Greenlet "Greenlet-1" at 0x7f44d59c9db8: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0950>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:44:54Z <Greenlet "Greenlet-74" at 0x7f44d59e2470: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d59d97d0 fileno=27 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:44:58Z <Greenlet "Greenlet-5" at 0x7f44d59c9680: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d5a0e290>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 339, in inputcooker
+    custom_pool.remove_connection(str(self.client_address[0]) + ':' + str(self.client_address[1]))
+  File "/home/MTPot/CustomPool.py", line 50, in remove_connection
+    to_del_greenlet = self.open_connection_dico_ip[to_del_source]
+KeyError: '193.29.15.60:32767'
+2019-08-15T03:45:12Z <Greenlet "Greenlet-9" at 0x7f44d59faec0: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59d9b90>>> failed with KeyError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:45:12Z <Greenlet "Greenlet-7" at 0x7f44d59fa158: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a26c50 fileno=29 timeout=30.0>)> failed with error
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/home/MTPot/MTPot.py", line 336, in inputcooker
+    super(MyTelnetHandler, self).inputcooker()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 861, in inputcooker
+    self.options_handler(self.sock, c, NOOPT)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 567, in options_handler
+    logging.debug("Unhandled option: %s %s" % (cmdtxt, opttxt, ))
+NameError: global name 'logging' is not defined
+2019-08-15T03:45:15Z <Greenlet "Greenlet-15" at 0x7f44d59fa470: <bound method MyTelnetHandler.inputcooker of <__main__.MyTelnetHandler object at 0x7f44d59c0790>>> failed with NameError
+
+Traceback (most recent call last):
+  File "src/gevent/greenlet.py", line 716, in gevent._greenlet.Greenlet.run
+  File "/usr/local/lib/python2.7/dist-packages/gevent/baseserver.py", line 26, in _handle_and_close_when_done
+    return handle(*args_tuple)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 494, in streamserver_handle
+    cls(request, address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 14, in __init__
+    TelnetHandlerBase.__init__(self, request, client_address, server)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 481, in __init__
+    SocketServer.BaseRequestHandler.__init__(self, request, client_address, server)
+  File "/usr/lib/python2.7/SocketServer.py", line 672, in __init__
+    self.finish()
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/green.py", line 28, in finish
+    TelnetHandlerBase.finish(self)
+  File "/usr/local/lib/python2.7/dist-packages/telnetsrv/telnetsrvlib.py", line 528, in finish
+    self.sock.shutdown(socket.SHUT_RDWR)
+  File "/usr/local/lib/python2.7/dist-packages/gevent/_socket2.py", line 400, in shutdown
+    self._sock.shutdown(how)
+error: [Errno 107] Transport endpoint is not connected
+2019-08-15T03:45:16Z <Greenlet "Greenlet-7" at 0x7f44d59fa158: _handle_and_close_when_done(<bound method type.streamserver_handle of <class ', <bound method StreamServer.do_close of <StreamServ, (<socket at 0x7f44d5a26b10 fileno=28 timeout=30.0>)> failed with error
+
