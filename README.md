@@ -1,7 +1,7 @@
 About
 =====
 
-This is a fake honeypot is based python wrapper for snap7. 
+This is a fake conpont honeypot is based python wrapper for snap7. 
 Snap7 is an open source and it simulates nativelywith Siemens 
 S7 PLCs.
 
